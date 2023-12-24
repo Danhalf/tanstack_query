@@ -1,0 +1,60 @@
+.todosGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.todoCard {
+  padding: 1rem;
+  text-align: center;
+  background-color: #4caf50;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.todoCard:hover {
+  transform: scale(1.05);
+}
+
+.todoId {
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: rgb(62, 51, 131);
+}
+
+.todoDetails {
+  margin-top: 15px;
+  color: yellow;
+}
+
+.todoForm {
+  max-width: 300px;
+  margin: auto;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.formInput {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.submitButton {
+  background-color: #4caf50;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submitButton:hover {
+  background-color: #45a049;
+}
